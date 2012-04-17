@@ -1,7 +1,7 @@
 #include "list.h"
 #include <assert.h>
 #include <stdbool.h>
-
+#include <stdio.h>
 
 static void test_init(){
 
@@ -57,7 +57,9 @@ static void test_insert(){
 
 
 int main(){
+  printf("Tests finished");
   test_init();
   test_insert();
+
   return 0;
 }
